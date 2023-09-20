@@ -19,6 +19,17 @@ if ('serviceWorker' in navigator) {
   });
   }
   
+//Check if serviceworker is ready
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(registration => {
+      console.log('Service Worker ready');
+    });
+}
+
+
+
+
+
   // Add an event listener to the button
   const showButton = document.getElementById('show-button');
   showButton.addEventListener('click', () => {
