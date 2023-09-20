@@ -1,12 +1,21 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title>Hello!</title>
+  <title>Minimal PWA</title>
+  <link rel="canonical" href="https://hhsaffar.github.io/pwatest/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    /* Style the text box and button */
+    #text-input {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-    <p>Hi there!</p>
-    <p>Another line?</p>
+  <input type="text" id="text-input" placeholder="Enter text">
+  <button id="show-button">Show Notification</button> With service worker
+
+  <script src="main.js"></script>
 </body>
 </html>
