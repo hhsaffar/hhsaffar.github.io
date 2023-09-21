@@ -1,0 +1,15 @@
+{
+    "relationships": [
+      {
+        "name": "Minimal TWA",
+        "subject": "https://hhsaffar.github.io", 
+        "target": {
+          "namespace": "io.github.hhsaffar.twa",
+          "package": "io.github.hhsaffar.twa",
+          "sha256_cert_fingerprints": [
+            "f7:aa:58:76:fe:da:54:39:05:3a:53:6a:2e:7f:7f:9d:b3:67:11:4d"
+          ]
+        } 
+      }
+    ]
+  }
