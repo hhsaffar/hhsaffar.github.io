@@ -4,7 +4,7 @@
       "delegate_permission/common.handle_all_urls"
     ],
     "target": {
-      "namespace": "io.github.hhsaffar.twa",
+      "namespace": "android_app",
       "package_name": "io.github.hhsaffar.twa",
       "sha256_cert_fingerprints": [
         "94:f8:40:f7:cb:ff:b1:ef:51:74:48:cf:16:35:a7:44:57:d9:17:51:ad:36:35:a2:8c:11:5a:95:32:14:98:6e"
