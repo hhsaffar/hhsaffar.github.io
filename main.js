@@ -35,11 +35,12 @@ if ('serviceWorker' in navigator) {
   showButton.addEventListener('click', () => {
     const textInput = document.getElementById('text-input');
     const text = textInput.value;
-    alert (text);
+    //alert (text);
     // Display notification after 2 seconds
-    setTimeout(() => {
-      showNotification(text);
-    }, 2000);
+    //setTimeout(() => {
+    //  showNotification(text);
+    //}, 2000);
+    showNotification(text);
   });
   
   // Function to display the notification
