@@ -1,15 +1,33 @@
 {
-    "name": "Minimal PWA",
-    "short_name": "Minimal PWA",
-    "start_url": "index.html",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
-    "icons": [
-      {
-        "src": "icon.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ]
-  }
+  "name": "Minimal PWA",
+  "short_name": "Minimal PWA",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "images/icon1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon144.png",
+      "sizes": "144x144",
+      "type":"image/png"
+    },
+    {
+      "src":"images/icon48.png",
+      "sizes":"48x48",
+      "type":"image/png"
+    }
+  ],
+  "id": "hhsaffar-minimal-pwa-v1",
+  "description": "I want to learn pwas with this example",
+  "scope": "https://hhsaffar.github.io/"
+}
